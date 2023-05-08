@@ -1,0 +1,311 @@
+/* TITULOS */
+h1 {
+	font-size: 1.4em;
+	color: #000;
+	border-bottom: 2px dotted #042E6F;
+	padding: 2px;
+	margin: 10px;
+}
+
+h1 a {
+	font-size: 0.8em;
+	color:#003399;
+	padding: 2px;
+	text-decoration:none;
+}
+
+h1 a:hover {
+	background-color:#CCCCCC;
+}
+
+
+
+h2 {
+	font-size: 1.2em;
+	color: #003399;
+	padding: 2px;
+	margin: 10px;
+}
+h3 {
+	font-size: 1.0em;
+	color: #666;
+	padding: 2px;
+	margin: 10px;
+}
+
+/* TEXTOS */
+p,ul,ol {
+	padding: 2px;
+	margin: 3px 10px;
+	color:#666;
+}
+ul,ol {
+	padding-left: 20px;
+}
+
+/* DETALHES */
+.destaque {
+	border: 1px solid #042E6F;
+	background-color: #F0F7FF;
+	padding:5px;
+}
+.destaque_form {
+	background-color:#E8D1BB;
+	padding:5px;
+}
+
+
+/* MENU 1 */
+.menu p {
+	display:block;
+	width:170px;
+	font-size:0.9em;
+	height:22px;
+	line-height:22px;
+	color:#003399;
+	text-decoration: none;
+	font-weight:bold;
+	padding:1px 5px;
+	margin:3px 0 0 0;
+	border-bottom:2px solid #EEEEEE;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu ul li {
+	margin: 0;
+	padding: 0;
+}
+.menu ul li a {
+	text-decoration: none;
+	color:#666666;
+	padding:1px 5px;
+	margin:0;
+	display:block;
+	width:170px;
+	height:22px;
+	line-height:22px;
+	border-bottom:2px solid #EEEEEE;
+}
+.menu a:hover{
+	color: #FFF;
+	background-color: #999;
+	margin: 0 auto;
+}
+
+
+
+/* BOTÕES */
+.botao {
+	color:#999;
+}
+.botao a:link, .botao a:visited {
+	text-decoration:none;
+	font-weight:bold;
+	color:#666;
+	padding:2px;
+	background-color: #EEE;
+	border: 1px solid #666;
+	margin: 0px;
+}
+.botao a:hover {
+	background-color: #666;
+	border: 1px solid #000;
+	color: #FFF;
+} 
+
+
+/* TABELAS */
+table,td{
+	border: 1px solid #CCC;
+	border-collapse:collapse;
+}
+table{
+	border: none;
+	border: 1px solid #CCC;
+	background: #FFF;
+}
+table.telasis{
+	width:700px;
+	margin:auto;
+}
+
+
+
+
+
+thead th,tbody th{
+	padding: 5px;
+	border-left: 1px solid #CCC;
+	background-image:url(../imagens/bg_celulas2.gif);
+}
+tbody th, tfoot th{
+	background-image:url(../imagens/bg_celulas.gif);
+	border-top: 1px solid #CCC;
+	text-align: left;
+	font-weight: normal;
+	padding: 5px;
+}
+tbody tr td{
+	padding: 5px;
+}
+tbody tr:hover{
+	background: #EEEEEE;
+}
+
+tbody tr:hover td{
+
+}
+tfoot td{
+	border-left: none;
+	border-top: 1px solid #CCC;
+	padding: 5px;
+	background: #FFF;
+	color: #666;
+}
+caption{
+	text-align: left;
+	font-size: 120%;
+	padding: 10px 0;
+	color: #666;
+}
+table img {
+	border:none;
+}
+
+
+/* FORMULÁRIOS */
+form {
+	margin: 0px;
+}
+
+form#login {
+	width:400px;
+	margin:0 auto;
+}
+
+#login fieldset {
+	margin: 0 10px;
+	width: 97%;
+	padding:5px;
+	border: 1px solid #CCC;
+	background-color:#FFFDF6;
+	background-image:url(../imagens/bg_celulas.gif);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+
+#login legend {
+	font-size:1.2em;
+	font-weight:bold;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	padding:3px;
+	margin:5px 0;
+}
+
+fieldset {
+	margin: 10px 0;
+	padding:5px;
+	border: 1px solid #CCC;
+	background-color:#FFFFFF;
+}
+
+legend {
+	font-size:1.2em;
+	font-weight:bold;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	padding:3px;
+	margin:5px 0;
+}
+
+label, div.label{
+	display:block;
+	margin:5px;
+}
+label.coluna2, div.labelcoluna2{
+	width:320px;
+	float:left;
+}
+label.coluna3, div.labelcoluna3{
+	width:200px;
+	float:left;
+}
+
+div.label, div.labelcoluna2, div.labelcoluna3{
+	margin:5px;
+}
+
+div.label label, div.labelcoluna2 label, div.labelcoluna3 label{
+	display:inline;
+	margin:0;
+}
+
+
+input, select, textarea {
+	text-decoration:none;
+	font-weight:bold;
+	font-size:1.2em;
+	padding: 4px;
+	margin:0;
+	border: 1px solid #CCC;
+}
+input.menor, select.menor, textarea.menor {
+	text-decoration:none;
+	font-weight:normal;
+	font-size:1.1em;
+	padding: 2px;
+	margin:0;
+	border: 1px solid #CCC;
+}
+input.radio{
+	border: none;
+	background:none;
+}
+
+input.error,select.error,textarea.error { border: 1px solid red; }
+label.error {
+	color:#CC0000;
+}
+label.valid {
+	color:#006600;
+}
+
+
+
+/* TABS */
+ul.tabs {
+	margin: 0px 0px 0px 0px; !important
+	padding: 0px 0px 0px 0px; !important
+	list-style: none;
+	border-bottom:1px solid #CCCCCC;
+	line-height:20px;
+}
+ul.tabs li {
+	margin: 0px 3px 0px 0px; !important
+	text-decoration: none;
+	color:#000;
+	padding:3px 10px;
+	cursor:pointer;
+	display:inline;
+	border:1px solid #CCCCCC;
+	background: #EEEEEE;
+	line-height:20px;
+}
+ul.tabs li:hover, ul.tabs li.active{
+	border:1px solid #999999;
+	border-bottom:1px solid #FFFFFF;
+	background: #FFFFFF;
+}
+
+
+.cont_tabs{
+	border:1px solid #CCCCCC;
+	border-top:none;
+	background: #FFFFFF;
+	padding-top:3px;
+}

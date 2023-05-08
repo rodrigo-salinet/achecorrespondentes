@@ -1,0 +1,109 @@
+body {
+	margin: 0px 0px 50px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:#EEEEEE;
+}
+#frame{
+	width:1000px;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	padding:20px 0px;
+}
+#frame_lbox{
+	background-color:#FFFFFF;
+	padding:20px 0px;
+}
+
+/* BARRA GOVERNO FEDERAL */
+/* usa padrões de tamanho, cor e conteúdo definidos pela SECOM */
+#barra_brasil_home, #barra_brasil_int {
+	width:1000px;
+	height:35px;
+	margin:0 auto;
+	background-color:#FFCC00;
+}
+#barra_brasil_ministerio {
+	width:322px;
+	height:35px;
+	float:left;
+}
+#barra_brasil_combo {
+	width:564px;
+	height:35px;
+	float:left;
+}
+#barra_brasil_brasil{
+	width:114px;
+	height:35px;
+	float:left;
+}
+#barra_brasil_home img, #barra_brasil_int img{
+	border:none;
+}
+/* FIM BARRA GOVERNO FEDERAL */
+
+#topo {
+	width:1000px;
+	height:156px;
+	margin:0 auto;
+	background-color: #FFF;
+	background-image: url(../imagens/topo.jpg);
+	background-repeat: no-repeat;
+}
+
+#topo_contratos {
+	width:1000px;
+	height:156px;
+	margin:0 auto;
+	background-color: #FFF;
+	background-image: url(../imagens/topo_contratos.jpg);
+	background-repeat: no-repeat;
+}
+
+#topo_projetos {
+	width:1000px;
+	height:156px;
+	margin:0 auto;
+	background-color: #FFF;
+	background-image: url(../imagens/topo_projetos.jpg);
+	background-repeat: no-repeat;
+}
+
+#menu_topo {
+	display:none; /* SOLICITADO RETIRAR */
+	height:20px;
+	font-weight:bold;
+	line-height:20px;
+	float:right;
+	text-align:right;
+	padding: 3px 10px;
+	margin-top:130px;
+}
+#menu_topo img {
+	vertical-align:text-top;
+	border:none;
+}
+#menu_topo a {
+	text-decoration:none;
+	color:#000;
+}
+
+#menu1 {
+	width:180px;
+	float:left;
+}
+#conteudo{
+	width:800px;
+	padding:0 10px;
+	float:left;
+}
+
+#rodape {
+	text-align: right;
+	right: 10px;
+	padding: 5px;
+	bottom: 0px;
+	position: fixed;
+
+}
