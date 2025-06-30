@@ -1,0 +1,362 @@
+#form_cidade {
+	margin: 50px 0 30px 0;
+	background: #2074ad;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+#form_cidade p {
+	width: 30%;
+	position: relative;
+	margin: 20px 0;
+	display: inline-block;
+	vertical-align: top;
+}
+#form_cidade h3 {
+	color: #fff;
+	margin-top: 10px;
+}
+#form_cidade label {
+	margin-left: 5px;
+}
+/* INPUT */
+#form_cidade input[type='text'] {
+	width: 100%;
+	height: 50px;
+	padding: 5px 10px;
+	vertical-align: middle;
+	border: 1px #fff solid;
+	font-size: 18px;
+	color: #2d2d2d;
+	-webkit-appearance: none;
+	border-radius: 10px;
+	background: #efefef;
+}
+#form_cidade input[type="text"]:focus {
+	border: 1px solid #2073ac;
+}
+#form_cidade input[type='password'] {
+	width: 100%;
+	height: 50px;
+	padding: 5px 10px;
+	vertical-align: middle;
+	border: 1px #fff solid;
+	font-size: 18px;
+	color: #2d2d2d;
+	-webkit-appearance: none;
+	border-radius: 10px;
+	background: #efefef;
+}
+#form_cidade input[type="password"]:focus {
+	border: 1px solid #2073ac;
+}
+#form_cidade input[type='file'] {
+	width: 100%;
+	height: 50px;
+	padding: 15px 10px;
+	vertical-align: middle;
+	border: 1px #fff solid;
+	color: #2d2d2d;
+	-webkit-appearance: none;
+	border-radius: 10px;
+	background: #efefef;
+	font-size: 15px;
+}
+/* SELECT */
+#form_cidade .box_select {
+	width: 150px;
+	height: 50px;
+	margin-right: 20px;
+	position: relative;
+	background: url(../imagens/seta_select.png) #efefef right center no-repeat;
+	border-radius: 10px;
+}
+#form_cidade .select_label {
+	width: 100%;
+	height: 50px;
+	padding: 10px 0 0 15px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#form_cidade .box_select select {
+	width: 100%;
+	height: 50px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	text-indent: 2%;
+	opacity: 0;
+}
+#form_cidade .box_cidade {
+	width: 250px;
+	height: 50px;
+	margin-right: 20px;
+	position: relative;
+	background: url(../imagens/seta_select.png) #efefef right center no-repeat;
+	border-radius: 10px;
+}
+#form_cidade .box_cidade select {
+	width: 100%;
+	height: 50px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	text-indent: 2%;
+	opacity: 0;
+}
+#form_cidade .box_check {
+	width: 150px;
+	height: 29px;
+	margin: 30px 20px 0 0;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	padding-left: 29px;
+}
+#form_cidade .box_check label {
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+}
+#form_cidade .box_check input[type="checkbox"] {
+	width: 29px;
+	height: 29px;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 5;
+	opacity: 0;
+}
+#form_cidade .box_check span {
+	width: 29px;
+	height: 29px;
+	background: url(../imagens/checkbox.png) top center no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#form_cidade input[type="checkbox"]:checked + span {
+	width: 29px;
+	height: 29px;
+	background: url(../imagens/checkbox.png) bottom center no-repeat;
+}
+#form_planos {
+	padding-bottom: 50px;
+}
+/* BT FORM */
+.bt_form {
+	width: 100%;
+	height: 50px;
+	background: #f3ac00;
+	cursor: pointer;
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 1px;
+	border-bottom: 1px #c88e00 solid;
+	font-family: 'droid_sansregular';
+	outline: none;
+	-webkit-appearance: none;
+	border-radius: 10px;
+}
+.bt_form:hover {
+	background: #fdbb1c;
+}
+.box_bt {
+	width: 150px;
+}
+.bt_finalizar {
+	width: 400px;
+	height: 50px;
+	background: #2073ac;
+	cursor: pointer;
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 1px;
+	border-bottom: 1px #1b5b88 solid;
+	font-family: 'droid_sansregular';
+	outline: none;
+	-webkit-appearance: none;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+}
+.bt_finalizar:hover {
+	background: #298acd;
+}
+.cidades_cadastradas {
+	margin-top: 30px;
+}
+.cidades_cadastradas li {
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px 40px 5px 10px;
+	position: relative;
+	border: 1px #bcbcbc solid;
+	border-radius: 10px;
+	margin: 30px 30px 30px 0;
+	position: relative;
+}
+.excluir_cidade {
+	width: 19px;
+	height: 20px;
+	display: block;
+	background: url(../imagens/excluir.png) center center no-repeat;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.cidades_cadastradas .destaque {
+	border: 1px #c92a2a solid;
+	color: #c92a2a;
+}
+.cidades_cadastradas .destaque:after {
+	content: "Em destaque";
+	width: 100px;
+	display: block;
+	font-size: 14px;
+	color: #c92a2a;
+	position: absolute;
+	left: 0;
+	top: -28px;
+}
+.cidades_cadastradas .destaque .excluir_cidade {
+	background: url(../imagens/excluir2.png) center center no-repeat;
+}
+.box_plano {
+	width: 22.5%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	background: #fff;
+	margin: 80px 1%;
+	border: 1px #c4c4c4 solid;
+	border-bottom: 1px #709229 solid;
+	border-radius: 10px;
+	position: relative;
+}
+.box_plano:hover {
+	-webkit-box-shadow: 0 2px 3px 1px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 3px 1px rgba(0,0,0,0.2);
+	background: #fff;
+}
+.box_plano em {
+	width: 160px;
+	height: 46px;
+	display: block;
+	background: url(../imagens/check.png) left center no-repeat;
+	position: absolute;
+	top: -60px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: none;
+	padding-left: 60px;
+	text-align: left;
+	line-height: 20px;
+}
+.box_plano em:before {
+	content: "Selecione para comprar";
+}
+.box_plano:hover em {
+	display: block;
+}
+.box_plano .ativo {
+	-webkit-box-shadow: 0 2px 3px 1px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 3px 1px rgba(0,0,0,0.2);
+	background: #fff;
+}
+.box_plano .ativo em {
+	display: block;
+}
+.box_plano h4 {
+	font-size: 22px;
+	padding: 20px;
+	display: block;
+	border-bottom: 1px #c4c4c4 solid;
+	font-weight: bold;
+	border-radius: 10px 10px 0 0;
+	background: #f6f6f6; /* Old browsers */
+	background: -moz-linear-gradient(top, #f6f6f6 0%, #d5d5d5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6f6f6), color-stop(100%, #d5d5d5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f6f6f6 0%, #d5d5d5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f6f6f6 0%, #d5d5d5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f6f6f6 0%, #d5d5d5 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f6f6f6 0%, #d5d5d5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#d5d5d5', GradientType=0); /* IE6-9 */
+}
+.box_plano span {
+	display: block;
+	padding: 20px;
+	display: block;
+}
+.box_plano span + span {
+	border-top: 1px #c4c4c4 solid;
+}
+.box_plano strong {
+	background: #98c61b;
+	padding: 20px;
+	display: block;
+	color: #fff;
+	font-family: 'droid_sansbold';
+	font-size: 30px;
+	text-shadow: 0 1px 1px #5d7922;
+	border-radius: 0 0 10px 10px;
+}
+.input_radio {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 999;
+	cursor: pointer;
+	opacity: 0;
+}
+.input_radio:hover {
+	opacity: 0;
+}
+.input_radio:checked + em {
+	display: block;
+}
+.input_radio:checked + em:before {
+	display: block;
+	content: "Plano Selecionado";
+}
+.radio_pag {
+	display: inline-flex;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 999;
+	cursor: help;
+	opacity: 0;
+	-webkit-appearance: default;
+}
+.planos_tit {
+	padding: 20px;
+	display: block;
+	text-align: center;
+	color: #fff;
+	background: #2073ac;
+	margin-top: 50px;
+	border-radius: 10px;
+}
